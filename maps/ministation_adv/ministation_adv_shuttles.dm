@@ -41,5 +41,5 @@ ESCAPE_POD(1)
 /obj/effect/shuttle_landmark/supply/station
 	landmark_tag = "nav_cargo_station"
 	docking_controller = "cargo_bay"
-	base_area = /area/ministation/supply_dock
+	base_area = /area/ministation_adv/supply_dock
 	base_turf = /turf/space

@@ -1,5 +1,5 @@
-/turf/simulated/wall/natural/random/ministation/get_weighted_mineral_list()
-	if(prob(80))	
+/turf/simulated/wall/natural/random/ministation_adv/get_weighted_mineral_list()
+	if(prob(80))
 		. = list()
 	else if(prob(75))
 		if(strata)
@@ -31,33 +31,33 @@
 	storage_types = CLOSET_STORAGE_MOBS | CLOSET_STORAGE_ITEMS
 
 //suit cyclers
-/obj/machinery/suit_cycler/ministation //this one goes in eva
+/obj/machinery/suit_cycler/ministation_adv //this one goes in eva
 	req_access = list()
 	suit = /obj/item/clothing/suit/space
 	helmet = /obj/item/clothing/head/helmet/space
 
-/obj/machinery/suit_cycler/engineering/ministation
+/obj/machinery/suit_cycler/engineering/ministation_adv
 	suit = /obj/item/clothing/suit/space/void/engineering
 	helmet = /obj/item/clothing/head/helmet/space/void/engineering
 	boots = /obj/item/clothing/shoes/magboots
 
-/obj/machinery/suit_cycler/mining/ministation
+/obj/machinery/suit_cycler/mining/ministation_adv
 	suit = /obj/item/clothing/suit/space/void/mining
 	helmet = /obj/item/clothing/head/helmet/space/void/mining
 	boots = /obj/item/clothing/shoes/magboots
 
-/obj/structure/closet/medical_wall/ministation/WillContain() // for common area, has slightly less than normal
+/obj/structure/closet/medical_wall/ministation_adv/WillContain() // for common area, has slightly less than normal
 	return list(
 		/obj/random/firstaid,
 		/obj/random/medical/lite = 8)
 
-/obj/machinery/vending/assist/ministation/Initialize() //vending machines found in maint tunnels
+/obj/machinery/vending/assist/ministation_adv/Initialize() //vending machines found in maint tunnels
 	. = ..()
 	contraband += list(/obj/item/multitool = 1)
 
 //cameras
-/obj/machinery/camera/network/ministation/sat
+/obj/machinery/camera/network/ministation_adv/sat
 	network = list("Satellite")
 
-/obj/machinery/camera/motion/ministation
+/obj/machinery/camera/motion/ministation_adv
 	network = list("Satellite")

@@ -1,7 +1,7 @@
-/datum/job/ministation/captain
+/datum/job/ministation_adv/captain
 	title = "Captain"
 	supervisors = "your profit margin, your conscience, and the Trademaster"
-	outfit_type = /decl/hierarchy/outfit/job/ministation/captain
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/captain
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_WEAPONS  = SKILL_ADEPT,
@@ -28,12 +28,12 @@
 	must_fill = 1
 	not_random_selectable = 1
 
-/datum/job/ministation/captain/equip(var/mob/living/carbon/human/H)
+/datum/job/ministation_adv/captain/equip(var/mob/living/carbon/human/H)
 	. = ..()
 	if(H) 
 		H.verbs |= /mob/proc/freetradeunion_rename_company
 
-/datum/job/ministation/captain/get_access()
+/datum/job/ministation_adv/captain/get_access()
 	return get_all_station_access()
 
 /mob/proc/freetradeunion_rename_company()
@@ -51,10 +51,10 @@
 		command_announcement.Announce("Congratulations to all members of [capitalize(GLOB.using_map.company_name)] on the new name. Their rebranding has changed the [GLOB.using_map.company_short] market value by [0.01*rand(-10,10)]%.", "Trade Union Name Change")
 	verbs -= /mob/proc/freetradeunion_rename_company
 
-/datum/job/ministation/hop
+/datum/job/ministation_adv/hop
 	title = "Lieutenant"
 	supervisors = "the Captain"
-	outfit_type = /decl/hierarchy/outfit/job/ministation/hop
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/hop
 	hud_icon = "hudheadofpersonnel"
 	head_position = 1
 	department_refs = list(

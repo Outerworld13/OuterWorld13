@@ -1,11 +1,11 @@
-/datum/job/ministation/scientist
+/datum/job/ministation_adv/scientist
 	title = "Scientist"
 	alt_titles = list("Researcher","Xenobiologist","Roboticist","Xenobotanist")
 	supervisors = "the Lieutenant and the Captain"
 	spawn_positions = 1
 	total_positions = 2
 	department_refs = list(DEPT_SCIENCE)
-	outfit_type = /decl/hierarchy/outfit/job/ministation/scientist
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/scientist
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_COMPUTER = SKILL_BASIC,

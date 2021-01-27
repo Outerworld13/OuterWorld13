@@ -1,11 +1,11 @@
-/datum/job/ministation/bartender
+/datum/job/ministation_adv/bartender
 	title = "Bartender"
 	alt_titles = list("Cook","Barista")
 	supervisors = "the Lieutenant and the Captain"
 	total_positions = 1
 	spawn_positions = 1
 	hud_icon = "hudbartender"
-	outfit_type = /decl/hierarchy/outfit/job/ministation/bartender
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/bartender
 	department_refs = list(DEPT_SERVICE)
 	selection_color = "#3fbe4a"
 	economic_power = 5
@@ -30,14 +30,14 @@
 	)
 	skill_points = 20
 
-/datum/job/ministation/cargo
+/datum/job/ministation_adv/cargo
 	title = "Cargo Technician"
 	alt_titles = list("Shaft Miner","Drill Technician","Prospector")
 	supervisors = "the Lieutenant and the Captain"
 	total_positions = 2
 	spawn_positions = 1
 	hud_icon = "hudcargotechnician"
-	outfit_type = /decl/hierarchy/outfit/job/ministation/cargo
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/cargo
 	department_refs = list(DEPT_SERVICE)
 	selection_color = "#8a7c00"
 	economic_power = 5
@@ -79,7 +79,7 @@
 		/datum/computer_file/program/reports
 	)
 
-/datum/job/ministation/janitor
+/datum/job/ministation_adv/janitor
 	title = "Janitor"
 	department_refs = list(DEPT_SERVICE)
 	total_positions = 1
@@ -108,7 +108,7 @@
 		"Custodian",
 		"Sanitation Technician"
 	)
-	outfit_type = /decl/hierarchy/outfit/job/ministation/janitor
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/janitor
 	min_skill = list(
 		SKILL_HAULING  = SKILL_BASIC
 	)

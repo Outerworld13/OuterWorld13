@@ -1,5 +1,5 @@
 // OUTFITS
-#define MINISTATION_OUTFIT_JOB_NAME(job_name) ("Ministation - Job - " + job_name)
+#define MINISTATION_ADV_OUTFIT_JOB_NAME(job_name) ("Ministation - Job - " + job_name)
 
 /decl/hierarchy/outfit/job/ministation
 	hierarchy_type = /decl/hierarchy/outfit/job/ministation

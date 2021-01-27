@@ -1,10 +1,10 @@
-/datum/job/ministation/engineer
+/datum/job/ministation_adv/engineer
 	title = "Station Engineer"
 	supervisors = "the Lieutenant and the Captain"
 	total_positions = 2
 	spawn_positions = 2
 	hud_icon = "hudengineer"
-	outfit_type = /decl/hierarchy/outfit/job/ministation/engineer
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/engineer
 	department_refs = list(DEPT_ENGINEERING)
 	selection_color = "#5b4d20"
 	economic_power = 5

@@ -1,11 +1,11 @@
-/datum/job/ministation/security
+/datum/job/ministation_adv/security
 	title = "Security Officer"
 	alt_titles = list("Warden")
 	supervisors = "the Lieutenant and the Captain"
 	spawn_positions = 1
 	total_positions = 2
 	hud_icon = "hudsecurityofficer"
-	outfit_type = /decl/hierarchy/outfit/job/ministation/security
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/security
 	department_refs = list(DEPT_SECURITY)
 	selection_color = "#990000"
 	economic_power = 7
@@ -31,14 +31,14 @@
 	)
 	skill_points = 20
 
-/datum/job/ministation/detective
+/datum/job/ministation_adv/detective
 	title = "Detective"
 	alt_titles = list("Inspector")
 	supervisors = "Justice... and the Trademaster"
 	spawn_positions = 1
 	total_positions = 1
 	hud_icon = "huddetective"
-	outfit_type = /decl/hierarchy/outfit/job/ministation/detective
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/detective
 	department_refs = list(DEPT_SECURITY)
 	selection_color = "#630000"
 	economic_power = 7

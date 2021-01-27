@@ -1,4 +1,4 @@
-/datum/job/ministation/doctor
+/datum/job/ministation_adv/doctor
 	title = "Medical Doctor"
 	department_refs = list(DEPT_MEDICAL)
 	head_position = 0
@@ -36,5 +36,5 @@
 		access_surgery,
 		access_virology
 	)
-	outfit_type = /decl/hierarchy/outfit/job/ministation/doctor
+	outfit_type = /decl/hierarchy/outfit/job/ministation_adv/doctor
 	minimal_player_age = 3

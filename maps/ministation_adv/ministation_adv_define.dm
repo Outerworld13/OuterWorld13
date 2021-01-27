@@ -1,15 +1,15 @@
-/datum/map/ministation
+/datum/map/ministation_adv
 	name = "Ministation"
 	full_name = "Ministation Zebra"
-	path = "ministation"
+	path = "ministation_adv"
 	ground_noun = "floor"
 
 	station_levels = list(1)
 	contact_levels = list(1)
 	player_levels = list(1)
 
-	station_name = "Space Station Zebra"
-	station_short = "Zebra"
+	station_name = "Space Station Alpha"
+	station_short = "Alpha"
 
 	dock_name     = "Finite Beginnings Free Dock"
 	boss_name     = "Trade Administration"
@@ -20,13 +20,13 @@
 
 	default_law_type = /datum/ai_laws/nanotrasen
 
-	lobby_screens = list('maps/ministation/lobby.png')
+	lobby_screens = list('maps/ministation_adv/lobby.png')
 
 	//TEMPORARY NOTE: Evac messages are temporary until its set up properly. Make sure they're changed later.
 	emergency_shuttle_leaving_dock = "Attention all crew members: the escape shuttle will be arriving shortly, please prepare to board."
 	emergency_shuttle_called_message = "Attention all crew members: emergency evacuation procedures are now in effect. Please make your way to the port hallway docking area in a calm and orderly manner."
 	emergency_shuttle_recall_message = "Attention all crew members: emergency evacuation sequence aborted. Return to normal operating conditions."
-	evac_controller_type = /datum/evacuation_controller/ministation_substitute
+	evac_controller_type = /datum/evacuation_controller/ministation_adv_substitute
 
 	station_networks = list(
 		NETWORK_EXODUS,
@@ -55,11 +55,11 @@
 	default_spawn = "Arrivals Shuttle"
 
 
-/datum/map/ministation/get_map_info()
+/datum/map/ministation_adv/get_map_info()
 	return "You're aboard the <b>[station_name],</b> an older station once used for unethical scientific research. It has long since been repurposed as deep space communication relay, though only on paper. \
 	Onboard activity is at the whims of the [boss_name] who treat the station as a glorafied dogsbody, and sometimes guinea pig."
 
-/datum/evacuation_controller/ministation_substitute
+/datum/evacuation_controller/ministation_adv_substitute
 	name = "lazy ministation evac controller"
 	evac_prep_delay =    6 MINUTES
 	evac_launch_delay =  1 SECONDS
