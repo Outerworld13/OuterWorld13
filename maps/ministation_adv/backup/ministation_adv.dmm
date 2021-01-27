@@ -19,7 +19,7 @@
 /turf/simulated/wall,
 /area/ministation_adv/science)
 "af" = (
-/turf/simulated/wall/natural/random/ministation,
+/turf/simulated/wall/natural/random/ministation_adv,
 /area/space)
 "ag" = (
 /obj/item/storage/mirror{
@@ -1969,7 +1969,7 @@
 	icon_state = "corner_white";
 	dir = 9
 	},
-/obj/machinery/suit_cycler/mining/ministation,
+/obj/machinery/suit_cycler/mining/ministation_adv,
 /turf/simulated/floor/tiled,
 /area/ministation_adv/cargo)
 "fj" = (
@@ -4822,7 +4822,7 @@
 /turf/simulated/floor/holofloor/lino,
 /area/ministation_adv/commons)
 "lV" = (
-/obj/structure/closet/medical_wall/ministation{
+/obj/structure/closet/medical_wall/ministation_adv{
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled,
@@ -5016,7 +5016,7 @@
 /turf/simulated/floor/plating,
 /area/ministation_adv/maint/e)
 "mw" = (
-/obj/machinery/vending/assist/ministation,
+/obj/machinery/vending/assist/ministation_adv,
 /turf/simulated/floor/plating,
 /area/ministation_adv/maint/e)
 "mx" = (
@@ -5147,7 +5147,7 @@
 	icon_state = "stripe";
 	dir = 1
 	},
-/obj/machinery/suit_cycler/ministation,
+/obj/machinery/suit_cycler/ministation_adv,
 /turf/simulated/floor/tiled,
 /area/ministation_adv/eva)
 "mN" = (
@@ -5439,7 +5439,7 @@
 	icon_state = "stripe";
 	dir = 1
 	},
-/obj/machinery/suit_cycler/ministation,
+/obj/machinery/suit_cycler/ministation_adv,
 /turf/simulated/floor/tiled,
 /area/ministation_adv/eva)
 "ny" = (
@@ -5453,11 +5453,11 @@
 	icon_state = "stripe";
 	dir = 1
 	},
-/obj/machinery/suit_cycler/ministation,
+/obj/machinery/suit_cycler/ministation_adv,
 /turf/simulated/floor/tiled,
 /area/ministation_adv/eva)
 "nz" = (
-/obj/machinery/suit_cycler/engineering/ministation,
+/obj/machinery/suit_cycler/engineering/ministation_adv,
 /turf/simulated/floor/tiled,
 /area/ministation_adv/engine)
 "nA" = (
@@ -7162,7 +7162,7 @@
 /turf/simulated/floor/plating,
 /area/ministation_adv/maint/w)
 "rz" = (
-/obj/machinery/vending/assist/ministation{
+/obj/machinery/vending/assist/ministation_adv{
 	icon_state = "generic";
 	dir = 1
 	},
@@ -10169,7 +10169,7 @@
 /turf/simulated/floor/tiled,
 /area/ministation_adv/cafe)
 "ys" = (
-/obj/machinery/telecomms/server/presets/ministation,
+/obj/machinery/telecomms/server/presets/ministation_adv,
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
 	temperature = 263
@@ -10834,7 +10834,7 @@
 /turf/simulated/floor/plating,
 /area/ministation_adv/ai_sat)
 "Aa" = (
-/obj/machinery/telecomms/bus/preset_one/ministation,
+/obj/machinery/telecomms/bus/preset_one/ministation_adv,
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
 	temperature = 263
@@ -11018,7 +11018,7 @@
 /turf/simulated/floor/wood,
 /area/ministation_adv/cafe)
 "Ax" = (
-/obj/machinery/telecomms/processor/preset_one/ministation,
+/obj/machinery/telecomms/processor/preset_one/ministation_adv,
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
 	temperature = 263
@@ -11100,7 +11100,7 @@
 /turf/simulated/wall,
 /area/ministation_adv/cafe)
 "AL" = (
-/obj/machinery/telecomms/hub/preset/ministation,
+/obj/machinery/telecomms/hub/preset/ministation_adv,
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
 	temperature = 263
@@ -14417,7 +14417,7 @@
 "Jo" = (
 /obj/structure/table/standard,
 /obj/item/folder/blue,
-/obj/machinery/camera/motion/ministation,
+/obj/machinery/camera/motion/ministation_adv,
 /turf/simulated/floor/tiled/techmaint,
 /area/ministation_adv/ai_upload)
 "Jp" = (
@@ -14893,7 +14893,7 @@
 	pixel_x = -6;
 	pixel_y = 24
 	},
-/obj/machinery/camera/motion/ministation,
+/obj/machinery/camera/motion/ministation_adv,
 /turf/simulated/floor/bluegrid,
 /area/ministation_adv/ai_core)
 "Kz" = (
@@ -17067,7 +17067,7 @@
 	icon_state = "4-8";
 	pixel_y = 0
 	},
-/obj/machinery/camera/motion/ministation,
+/obj/machinery/camera/motion/ministation_adv,
 /turf/simulated/floor/tiled/techmaint,
 /area/ministation_adv/ai_core)
 "ZE" = (

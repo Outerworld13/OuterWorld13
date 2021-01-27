@@ -28,7 +28,7 @@
 	. = ..()
 
 /decl/hierarchy/outfit/job/ministation_adv/detective
-	name = MINISTATION_ADV_ADV_OUTFIT_JOB_NAME("Detective")
+	name = MINISTATION_ADV_OUTFIT_JOB_NAME("Detective")
 	head = /obj/item/clothing/head/det
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud
 	l_ear = /obj/item/radio/headset/headset_sec

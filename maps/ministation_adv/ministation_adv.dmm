@@ -19,7 +19,7 @@
 /turf/simulated/wall,
 /area/ministation_adv/science)
 "af" = (
-/turf/simulated/wall/natural/random/ministation,
+/turf/simulated/wall/natural/random/ministation_adv,
 /area/space)
 "ag" = (
 /obj/item/storage/mirror{
